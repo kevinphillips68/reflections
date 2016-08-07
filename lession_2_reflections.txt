@@ -1,3 +1,7 @@
 Q: What happens when you initialize a repository? Why do you need it? 
 
 A: When I initialize a directory, I am able to see what is in the file and how many files are in the directory. It is a good tool to track the status of the file.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is part of the repository and it is where, from what I understand, non-commited files are 'staged' before being commited. The value is it allows a 'second-chance' to go over what is about to be commited, almost a fail safe area.
