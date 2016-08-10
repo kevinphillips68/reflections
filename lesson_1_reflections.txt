@@ -1,0 +1,74 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced? 
+
+A: When viewing a diff between two verions of a file, it help me understand how minute the change may be. 
+
+Q: How could having easy access to the entire history of a file make you a more efficient programer in the long term?
+
+A: By having a history of the file with all the changes over time, I would be able to view past changes to get an understanding of that version while having the option to keep, add, or remove parts of the code.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like dyou do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: 	Pros: Manually choosing when to create a commit gives a logical reason for the commit instead of automatically saving. By automatically saving, there isn't a logical reason behind the commit.
+
+	Cons: Cons for manually creating a commit could be when one loses focus and forgets to make a commit behind the reason for making a change in the code. When going over the code again, if there are multiple reasons for the changes, frustration might force the programmer to commit all the changes at once instead of breaking the changes into other commits.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: I would assume, by allowing version control systems to save multiple files with one commit it allows the others, or yourself, to view all associated files together to see how the new code affects the other files.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: Using git log and git diff is amazing! I can use it to see the whole history of the file(s) and compare with a print of what was added and deleted between each commit!
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: The name version-control is indicitive, meaning by making changes to a program, the chances of ruining the program is almost impossible because of the 'git checkout' command in git.
+
+
+q   // exit git log
+
+git log // list the commits and show which files have changed
+
+git log --stat // Show additional information about the commits
+
+git checkout // Shows a previous version of the file - checkout a different branch
+
+----Make Changes----
+
+git diff 'id1' 'id2' // Compate to different ids
+
+git status // lists all new or modified files to be committed
+
+git add [file name] // Snapshots the file in preparation for versioning
+
+git diff --staged // Shows file differences between staging and the last file version
+
+git reset [file name] // Unstages the file, but preserve its contents
+
+git commit -m "descriptive message" // Records file snapshots permanently in version history
+
+----Configure Tools----
+
+git config --global user.name "[name]" // Sets the name you want attached to your commit transactions
+
+git config --global user.name "[email address]" // Sets the email you want attached to yuor commit transactions
+
+git config --global color.ui auto // get colored diff output
+
+----Create Repositories----
+
+git init [project-name] // Creates a new local repository with the specified name
+
+git clone // Downloads a project and its entire version history
+
+----Group Changes----
+
+git branch // Lists all local branches in the current repository
+
+git branch [branch-name] // Creates a new branch
+
+git checkout [branch-name] // Switches to the specified branch and updates the working directory
+
+git merge [branch] // Combines the specified branch's history into the current branch
+
+git branch -d [branch-name] // Deletes teh specified branch
