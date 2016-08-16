@@ -2,3 +2,22 @@ Q: When would you want to create a remote repository rather than keep all your w
 
 A: I would want to create a remote repository if I were collaborating with one or more people to keep everything organized.
 
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: For myself, by having a remote repository automatically stay up-to-date would mean not understanding what the other has changed within the remote. Before I do a pull from the remote, I would want to understand what new information I'm pulling.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of the another?
+
+A: A fork is a copy of a repository. When you fork a repository, you're able to experiment with changes without affecting the original project. When you clone a repository, you create a local copy of the code provided by the developer. Branching a practice in Git. A branch can be use off a the master file. When you create a branch you can experiment with ideas and concepts for that tie-in with the master file. 
+
+Overall, you will fork a repository, clone it locally, branch off the master, make changes to your branch, push to the repository on github - if the maintainer likes the changes - he or she will merge them with the master.
+
+Q: What is the benefit of having a copy of the last known sate of the remote stored locally?
+
+A: By having a local copy of the last known state of the remote, I'm able to refer back to that state at any given time to test/refine my changes. Also, when having multiple people on that project, we have a reference point(s).
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Now that I have discovered Git and GitHub, I would find it very difficult collaborating with others if they were in a different region. However, if I were in a work environment, my other collaborators would be in the same office, making communication one on one without waiting for the other to review my contribution to the project.
+
+
